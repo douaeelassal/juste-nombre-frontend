@@ -1,0 +1,38 @@
+/* styles.css */
+.game-container, .scoreboard-container {
+  text-align: center;
+  margin: 20px;
+}
+
+input, button, select {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}

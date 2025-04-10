@@ -1,0 +1,17 @@
+<div class="game-container">
+  <h1>Le Juste Nombre</h1>
+  <div>
+    <label for="level">Choose Level:</label>
+    <select id="level" [(ngModel)]="level">
+      <option value="easy">Easy (0-1000)</option>
+      <option value="medium">Medium (0-1000000)</option>
+      <option value="hard">Hard (0-1000000000)</option>
+    </select>
+  </div>
+  <button (click)="startGame()">Start New Game</button>
+  <div>
+    <input type="number" [(ngModel)]="guess" placeholder="Enter your guess" />
+    <button (click)="makeGuess()">Guess</button>
+  </div>
+  <p>{{ message }}</p>
+</div>
